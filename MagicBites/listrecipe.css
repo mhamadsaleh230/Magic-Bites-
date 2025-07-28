@@ -1,0 +1,70 @@
+body{
+    background-image: url(images/LoginPageBackground6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+
+}
+.recipes-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-image: url(images/SideHover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.recipe-card {
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background-image: url(images/sideBackground2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+}
+
+.recipe-card img {
+    width: 100%;
+    height: auto;
+}
+
+.recipe-card h4 {
+    font-size: 18px;
+    margin: 15px;
+    text-align: center;
+}
+
+.recipe-card a {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.recipe-card:hover {
+    transform: scale(1.05);
+    z-index: 0;
+}
+.mainlistrecipe{
+    display: flex;
+    justify-content: center;
+    padding-top: 3.5rem;
+    flex-direction: column;
+}
+.MyRecipesTitle{
+    text-align: center;
+    color: #ddd;
+}

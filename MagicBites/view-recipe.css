@@ -1,0 +1,41 @@
+body{
+    margin:0;
+}
+.recipetitle{
+    text-align: center;
+    font-family: cursive;
+    color: brown;
+
+}
+.mainrecipes{
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    flex-direction: column;
+    background-image: url(images/SideHover.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.recipe-img{
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#backtorecipes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.recipe-container{
+    color: brown;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
